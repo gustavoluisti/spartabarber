@@ -3,6 +3,6 @@ import {View} from 'react-native';
 
 // import {Container} from './styles';
 
-export default function SelectProvider() {
+export default function Confirm() {
   return <View />;
 }
