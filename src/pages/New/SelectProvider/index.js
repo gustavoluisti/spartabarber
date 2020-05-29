@@ -8,7 +8,7 @@ import {Container, ProviderList, Provider, Avatar, Name} from './styles';
 
 import Background from '../../../components/Background';
 
-export default function SelectProvider() {
+export default function SelectProvider({navigation}) {
   const [providers, setProviders] = useState([]);
 
   useEffect(() => {
@@ -28,7 +28,8 @@ export default function SelectProvider() {
           data={providers}
           keyExtractor={provider => String(provider.id)}
           renderItem={({item: provider}) => (
-            <Provider>
+            <Provider
+              onPress={() => navigation.navigate('SelectDateTime', {provider})}>
               <Avatar
                 source={{
                   uri: provider.avatar
