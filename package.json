@@ -11,6 +11,7 @@
     "postinstall": "jetify"
   },
   "dependencies": {
+    "@react-native-community/datetimepicker": "^2.4.0",
     "axios": "^0.19.2",
     "date-fns": "^2.14.0",
     "immer": "^6.0.9",

@@ -2,6 +2,7 @@ import React, {useMemo} from 'react';
 import {DatePickerAndroid} from 'react-native';
 import {format} from 'date-fns';
 import pt from 'date-fns/locale/pt-BR';
+// import DateTimePicker from '@react-native-community/datetimepicker';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
