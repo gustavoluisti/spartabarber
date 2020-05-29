@@ -48,7 +48,7 @@ export default function SignIn({navigation}) {
           <FormInput
             icon="lock-outline"
             keyboardType="email-address"
-            secureTextEntry
+            secureTextEntry={true}
             placeholder="Digite sua senha"
             ref={passwordRef}
             returnKeyType="send"
